@@ -15,16 +15,11 @@ roles:
     
 #Role Variables
  # Installation Variables
- 
- http_port: 8080
- 
- https_port: 8443
- 
- java_version: "7.0"
- 
- tomcat_version: "7.0.61"
- 
- tomcat_tar_file: http://archive.apache.org/dist/tomcat/tomcat-7/v7.0.61/bin/apache-tomcat-7.0.61.tar.gz
+http_port: 8080
+https_port: 8443
+java_version: "7.0"
+tomcat_version: "7.0.61"
+tomcat_tar_file: http://archive.apache.org/dist/tomcat/tomcat-7/v7.0.61/bin/apache-tomcat-7.0.61.tar.gz
  
  # User Management Variables
  tomcat_user: tomcat

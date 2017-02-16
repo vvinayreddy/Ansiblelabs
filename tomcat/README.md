@@ -15,9 +15,12 @@ hosts: all
 roles:
     - selinux
     - tomcat
-    
+```
+
 Role Variables
 --------------
+tomcat/group_vars/all
+```
 # Installation Variables
 http_port: 8080
 https_port: 8443
@@ -30,7 +33,7 @@ tomcat_user: tomcat
 tomcat_group: tomcat
 manager_user: admin
 manager_password: adminsecret
- 
+```
 Dependencies
 ------------
  NONE

@@ -1,5 +1,5 @@
 Tomcat Server
-========
+============
 
 Playbook to install and configure tomcat on Redhat/Centos,Amazon Linux,Ubuntu
 
@@ -8,12 +8,12 @@ Requirement
 
 Redhat/Centos,Amazon Linux,Ubuntu and Java
 
-Playbook Eample
+Playbook Example
 ---------------
 ```
 hosts: all
 roles:
-    - selinux
+    - common
     - tomcat
 ```
 
@@ -40,7 +40,7 @@ Dependencies
  
 License
 -------
- NONE
+ Apache2    
  
 Author
 -----

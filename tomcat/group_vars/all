@@ -17,4 +17,4 @@ tomcat_version: "7.0.61"
 # download link to tomcat web server tar ball
 tomcat_tar_file: http://archive.apache.org/dist/tomcat/tomcat-7/v7.0.61/bin/apache-tomcat-7.0.61.tar.gz
 # your server ip address to run automate test
-tomcat_server_ip: "52.35.125.180"
+tomcat_server_ip: ""
